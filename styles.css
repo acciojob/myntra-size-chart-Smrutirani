@@ -1,2 +1,20 @@
 
 /* Your CSS Code here. */
+table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 400px;
+/* 	padding-right: 40px;  */
+}
+th{
+	text-align: left;
+}
+/* .data{
+	text-align: left;
+}
+td{
+	text-align: right;
+} */
+td:not(.data){
+	text-align: right;
+}
